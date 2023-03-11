@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SRM LAB BOOKING</title>
+	<link rel="stylesheet" href="LB.css">
+	<link rel="icon" type="x-icon" href="SRMBG.png"> 
+</head>
+<body>
+	<div class="navbar">
+		<a class="active" href="LB.html">SRM LAB BOOKING</a>
+		<a class="active" href="#">My Lab Bookings</a>
+	</div>
+	<div class="container">
+		<div class="lab-booking">
+			<h1>Book a Time Slot</h1>
+			<form>
+				<label>
+					<input type="radio" name="timeslot" value="8-12" checked>
+					8:00 AM 
+				</label>
+				<label>
+					<input type="radio" name="timeslot" value="1-5">
+					9:50 AM 
+				</label>
+				<label>
+					<input type="radio" name="timeslot" value="1-5">
+					1:00 PM 
+				</label>
+				<label>
+					<input type="radio" name="timeslot" value="1-5">
+					3:00 PM 
+				</label>
+				<label>
+					<input type="radio" name="timeslot" value="1-5">
+					5:00 PM 
+				</label>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	<div>
+		<div class="filter">
+			<label for="filter">Filter:</label>
+			<select id="filter">
+				<option value="labno">Lab No.</option>
+				<option value="faculty">Faculty allotted</option>
+			</select>
+		</div>
+		<div class="lab-schedule">
+			<table>
+				<thead>
+					<tr>
+						<th>Time Slot</th>
+						<th>Lab No.</th>
+						<th>Faculty allotted</th>
+						<th>Class allotted</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>8:00 AM </td>
+						<td>1</td>
+						<td>Dr. A. Sharma</td>
+						<td>IT-A</td>
+					</tr>
+					<tr>
+						<td>9:50 AM </td>
+						<td>2</td>
+						<td>Dr. B. Singh</td>
+						<td>CSE-A</td>
+					</tr>
+					<tr>
+						<td>1:00 PM </td>
+						<td>3</td>
+						<td>Dr. C. Gupta</td>
+						<td>ECE-A</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
