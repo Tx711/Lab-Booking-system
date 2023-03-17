@@ -14,10 +14,15 @@ body {
   align-items: center;
   height: 100vh;
 }
-body { 
+/* body { 
   background-image:url('https://media.giphy.com/media/3oriNS1Nq7vCZLdWWA/giphy.gif'); background-repeat:repeat; 
-}
+} */
 
+body { 
+  background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/be611c68306231.5b58520d14e24.gif');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 
 /* Style for the form */
 
@@ -26,6 +31,7 @@ form {
   border-radius: 35px;
   padding: 20px;
   width: 400px;
+  opacity: 0.8;
   box-shadow: 0px 0px 10px #ccc;
 }
 input[type=text], input[type=password] {
@@ -60,10 +66,11 @@ body {
 .container {
   margin: 20px auto;
   padding: 20px;
+  opacity: 0.8;
   background-color: #f3f3f3;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
   height: 32%;
-  width: 110%;
+  width: 90%;
   max-width: 900px;
   border-radius: 45px;
    display: flex;
@@ -136,11 +143,14 @@ input[type="submit"]:hover {
 /* My Bookings */
 
 .box{
-  padding: 2%;
+  background-color: whitesmoke;
+  padding: 3%;
+  border-radius: 5%; 
+  opacity: 0.8;
 
-  box-shadow: 0px 1px 2px 0px rgba(0, 136, 255, 0.7),
-            1px 2px 4px 0px rgba(0, 136, 255, 0.7),
-            2px 4px 8px 0px rgba(0, 136, 255, 0.7),
-            2px 4px 16px 0px rgba(0, 136, 255, 0.7);
+  box-shadow: 0px 1px 2px 0px rgba(255, 47, 0, 0.7),
+            1px 2px 4px 0px rgba(255, 0, 0, 0.7),
+            2px 4px 8px 0px rgba(255, 0, 0, 0.7),
+            2px 4px 16px 0px rgba(255, 0, 0, 0.7)
 }
 
